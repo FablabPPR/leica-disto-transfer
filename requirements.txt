@@ -1,0 +1,9 @@
+# Leica DISTO D1/D110 BLE Reader - Python Dependencies
+
+# BLE communication
+bleak>=0.21.0
+
+# Keyboard automation (optional, for --auto-type feature)
+# Note: On Linux, pynput requires evdev which needs system headers
+# Alternative: install via system package manager or use xdotool
+pynput>=1.7.6
